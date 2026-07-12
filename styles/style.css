@@ -44,6 +44,8 @@ nav .nav-links a {
 }
 
 nav .navber-btn {
+  font-weight: 600;
+  font-size: 1rem;
   background: #e8ba2e;
   color: #000102;
   width: 150px;
@@ -85,6 +87,8 @@ nav .navber-btn {
 }
 
 .hero-btn {
+  font-weight: 600;
+  font-size: 16px;
   background: #e8ba2e;
   color: #1c1c1c;
   width: 200px;
@@ -132,6 +136,69 @@ nav .navber-btn {
 }
 
 /*     <!-- explore section --> */
+.explore-section {
+  margin-top: 90px;
+}
+
 .explore-heading {
+  text-align: center;
+  color: #000102;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  color: #000102;
+  border: none;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-container h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.image-container p {
+  color: #575757;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.image-container ul li {
+  color: #575757;
+  margin-left: 20px;
+}
+
+.explore-btn-div {
+  text-align: center;
+  margin-top: 50px;
+}
+.explore-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  background: #f4c430;
+  color: #1c1c1c;
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 12px;
   text-align: center;
 }
