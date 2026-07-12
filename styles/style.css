@@ -268,3 +268,64 @@ table tr .opening-data {
 table tr .final-data {
   color: #bda004;
 }
+
+/* footer */
+footer {
+  background: #000102;
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-container {
+  padding: 50px 10px;
+}
+
+.top-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.bottom-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #99999a;
+}
+
+.divider-line {
+  border: 1px solid #99999a46;
+}
+
+.bottom-div .first-ul {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-div .second-ul {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
