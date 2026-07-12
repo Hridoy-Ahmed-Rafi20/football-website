@@ -99,7 +99,7 @@ nav .navber-btn {
 #review-section {
   width: 100%;
   background: #f4c430;
-  margin-top: 20px;
+  margin: 20px auto 0px auto;
 }
 
 .review-container {
@@ -129,4 +129,9 @@ nav .navber-btn {
 .review-container h1 {
   font-weight: 700;
   font-size: 4.5rem;
+}
+
+/*     <!-- explore section --> */
+.explore-heading {
+  text-align: center;
 }
