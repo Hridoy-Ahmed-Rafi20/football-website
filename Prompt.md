@@ -1,0 +1,4 @@
+act as senior frontend developer:
+
+I have made a fifa worl cup 2026 related website's frontend deisng. so here i have finished all the deisgn but above the footer section Remaining a section that section you will do. now you will make a section with top margin 100px bottom 0px left and right margin would be auto and inner the content container padding would be 20px. so can make this section about topic of how many country's are Participing in the fifa worl cup. so will make some of tema card deisgn inner the content container, don't need every team's card just set up 6 team's these are 1. Iran, 2.Egpt, 3. Porutal, 4.Spain, 5.Narway, 6.Japan and under every card you can add short description about team
+Also you can add some animation on the cards and Iam giving you (#000102) (#000102) (#715A16) for adjusting deisgn color combination.
