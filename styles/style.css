@@ -202,3 +202,69 @@ nav .navber-btn {
   border-radius: 12px;
   text-align: center;
 }
+
+/* table-section */
+.table-section-container {
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  margin-top: 100px;
+}
+
+.table-content p {
+  margin-bottom: 20px;
+}
+
+.table-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table-heading {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table-heading p {
+  color: #505f76;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th,
+td {
+  padding: 15px 60px;
+  border: 1px solid #000000;
+}
+
+table th {
+  background: #a73131;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+table tr .first-column {
+  color: #ba1a1a;
+  font-weight: 400;
+}
+
+table tr .second-column {
+  color: #111c2d;
+}
+
+table tr .third-column {
+  color: #505f76;
+}
+
+table tr .opening-data {
+  color: #f60000;
+}
+
+table tr .final-data {
+  color: #bda004;
+}
