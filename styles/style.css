@@ -33,7 +33,7 @@ nav .nav-links {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 25px;
+  gap: 30px;
   margin-left: 100px;
 }
 
@@ -52,7 +52,7 @@ nav .navber-btn {
   height: 50px;
   border-radius: 12px;
   border: none;
-  margin-left: 400px;
+  margin-left: 390px;
 }
 
 /* hero/banner section */
@@ -269,6 +269,124 @@ table tr .final-data {
   color: #bda004;
 }
 
+/* generate with AI */
+/* ===============================
+   Qualified Teams
+================================*/
+
+.qualified-teams {
+  margin: 100px auto 0;
+  background: #000102;
+}
+
+.teams-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title span {
+  color: #715a16;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-title h2 {
+  color: #fff;
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.section-title p {
+  max-width: 700px;
+  margin: auto;
+  color: #c8c8c8;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.team-card {
+  background: #0a0b0d;
+  border: 1px solid rgba(113, 90, 22, 0.25);
+  border-radius: 18px;
+  padding: 35px 25px;
+  text-align: center;
+
+  transition: 0.35s ease;
+  cursor: pointer;
+}
+
+.flag {
+  font-size: 55px;
+  margin-bottom: 20px;
+  transition: 0.35s;
+}
+
+.team-card h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.team-card p {
+  color: #cfcfcf;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* Hover */
+
+.team-card:hover {
+  transform: translateY(-12px);
+  border-color: #715a16;
+  box-shadow: 0 18px 35px rgba(113, 90, 22, 0.35);
+}
+
+.team-card:hover .flag {
+  transform: scale(1.15) rotate(-6deg);
+}
+
+/* Small golden line */
+
+.team-card::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin: 0 auto 22px;
+  background: #715a16;
+  border-radius: 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 34px;
+  }
+
+  .section-title p {
+    font-size: 15px;
+  }
+
+  .team-card {
+    padding: 30px 20px;
+  }
+}
+
 /* footer */
 footer {
   background: #000102;
@@ -311,7 +429,7 @@ footer {
 }
 
 .divider-line {
-  border: 1px solid #99999a46;
+  border: 1px solid #99999a3d;
 }
 
 .bottom-div .first-ul {
